@@ -18,7 +18,7 @@ function setup() {
 	paperObject=new Paper(200,450,40);
 	groundObject=new Ground(width/2,670,width,20);
 	//Create a Ground
-	
+	paper2= new Paper(100,450,20);
 
 	var render = Render.create({
 	  element: document.body,
@@ -43,7 +43,7 @@ function draw() {
   dustbinObj.display();
   paperObject.display();
   groundObject.display();
-  
+  paper2.display();
  
   
   
@@ -57,5 +57,3 @@ function keyPressed() {
     
   	}
 }
-
-
